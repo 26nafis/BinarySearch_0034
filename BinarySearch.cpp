@@ -80,6 +80,27 @@ void binarysearch()
         cout << "memasukan elemen yang ingin dicari: ";
         cin >> item;
 
-        
-    }
+        int low = 0;
+        int high = n - 1;
+
+        do 
+        {
+            int mid = (low + high) /2;
+            if (elemen[mid == item])
+            {
+                cout <<"\nElemen " << item << "ditentukan pada indeks ke-" << mid << ".\n";
+                return;
+            }
+            else if (item < elemen[mid])
+            {
+                high = mid - 1;
+            }
+            else{
+                low = mid + 1;
+            }
+        } while (low <= high);
+        cout << "\nMaaf! Elemenn" << item << "tidak ditentukan dalam array.\n";
+        cout << "\nIngin mecari lagi?" (y/n): ;
+        cin >> ulang;
+    } while (ulang == 'y'|| ulang == 'Y');
 }
