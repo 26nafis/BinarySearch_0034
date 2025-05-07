@@ -66,3 +66,9 @@ void display ()
     }
     cout << endl;
 }
+
+void binarysearch(
+    {
+        
+    }
+)
