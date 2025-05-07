@@ -71,4 +71,9 @@ void binarysearch()
 {
     char ulang;
     do 
+    {
+        cout << "\n======================\n";
+        cout << "pencarian binary search\n";
+        cout << "==========================\n";
+    }
 }
