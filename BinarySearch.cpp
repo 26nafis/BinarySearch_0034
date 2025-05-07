@@ -56,3 +56,13 @@ void display ()
     cout << "==============================\n";
     cout << "Elemen Array Setelah Diurutkan (Asc)\n";
     cout << "==============================\n";
+    for (int i = 0; i < n; i++)
+    {
+        cout << elemen[i];
+        if (i < n - 1)
+        {
+            cout << ", ";
+        }
+    }
+    cout << endl;
+}
