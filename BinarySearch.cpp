@@ -67,8 +67,8 @@ void display ()
     cout << endl;
 }
 
-void binarysearch(
-    {
-        
-    }
-)
+void binarysearch()
+{
+    char ulang;
+    do 
+}
